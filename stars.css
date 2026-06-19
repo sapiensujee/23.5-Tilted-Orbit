@@ -22,6 +22,22 @@
   pointer-events: none;
   z-index: 0;
   background:
+    /* 🌌 Constellations (Top Left Area) */
+    /* Big Dipper (Ursa Major) */
+    radial-gradient(3px 3px at 50px 80px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 70px 90px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 90px 105px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 105px 125px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 100px 145px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 130px 150px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 135px 120px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    /* Cassiopeia (W shape) */
+    radial-gradient(3px 3px at 180px 60px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 200px 85px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 215px 70px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 235px 95px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+    radial-gradient(3px 3px at 250px 65px, rgba(255, 255, 255, 0.8) 40%, rgba(255, 255, 255, 0.2) 70%, transparent 100%),
+
     /* ★ Bright stars — warm gold (sunlight), with soft glow */
     radial-gradient(3px 3px at 87px 45px, rgba(255, 230, 109, 0.60) 40%, rgba(255, 230, 109, 0.15) 70%, transparent 100%),
     radial-gradient(2.5px 2.5px at 340px 120px, rgba(255, 230, 109, 0.50) 40%, rgba(255, 230, 109, 0.10) 70%, transparent 100%),
