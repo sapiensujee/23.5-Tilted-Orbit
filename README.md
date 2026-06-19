@@ -79,7 +79,7 @@ Six themed bracket colors using the full palette:
 
 ---
 
-## 🌟 Bonus: Starfield & Celestial Doodles
+## 🌟Starfield & Celestial Doodles
 
 This theme includes an **optional** starfield background and floating celestial doodles that bring the cosmic romance of 23.5 right into your editor.
 
