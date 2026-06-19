@@ -6,6 +6,30 @@ Just as Earth's 23.5° axial tilt gives us our seasons, this theme tilts your ed
 
 ---
 
+## 🌟Starfield & Celestial Doodles
+
+This theme includes an **optional** starfield background and floating celestial doodles that bring the cosmic romance of 23.5 right into your editor.
+
+![23.5° Tilted Orbit Editor Preview](assets/preview.png)
+
+### What's Included
+
+| Element | Description |
+|---------|-------------|
+| ⭐ **Starfield** | ~35 scattered stars using CSS radial gradients in gold, sky-blue, lavender, pink, and chalk colors — with varying sizes and soft glow halos |
+| ✨ **Twinkle Animation** | 10 select stars gently pulse with a 4-second twinkle cycle |
+| 🌌 **Constellations** | The Big Dipper and Cassiopeia drawn with dashed lines in the top-left area |
+| 💖 **Sparkling Hearts** | 6 scattered hearts (🩷 and 💚) with staggered sparkle animations across the editor |
+| 🌞 **Sun Doodle** | Floating in the center-right of the editor |
+| 🌍 **Earth Doodle** | Floating near the Sun, offset slightly |
+| 🌙 **Moon Doodle** | Bottom-right corner with lavender glow |
+| 🛸 **UFO Doodle** | Bottom-right corner, floating near the Moon |
+| 🌈 **Rainbow Doodle** | Top-right area with a bouncy "peek-a-boo" bloom animation |
+
+Each celestial doodle is rendered beautifully at `50px` and has its own unique **floating/blooming animation** with different timing for a natural, dreamy feel.
+
+---
+
 ## 🎨 Color Palette
 
 | Role               | Color     | Swatch | Meaning                          |
@@ -78,28 +102,6 @@ Six themed bracket colors using the full palette:
 6. `#FFE66D` — Sunlight gold
 
 ---
-
-## 🌟Starfield & Celestial Doodles
-
-This theme includes an **optional** starfield background and floating celestial doodles that bring the cosmic romance of 23.5 right into your editor.
-
-![23.5° Tilted Orbit Editor Preview](assets/preview.png)
-
-### What's Included
-
-| Element | Description |
-|---------|-------------|
-| ⭐ **Starfield** | ~35 scattered stars using CSS radial gradients in gold, sky-blue, lavender, pink, and chalk colors — with varying sizes and soft glow halos |
-| ✨ **Twinkle Animation** | 10 select stars gently pulse with a 4-second twinkle cycle |
-| 🌌 **Constellations** | The Big Dipper and Cassiopeia drawn with dashed lines in the top-left area |
-| 💖 **Sparkling Hearts** | 6 scattered hearts (🩷 and 💚) with staggered sparkle animations across the editor |
-| 🌞 **Sun Doodle** | Floating in the center-right of the editor |
-| 🌍 **Earth Doodle** | Floating near the Sun, offset slightly |
-| 🌙 **Moon Doodle** | Bottom-right corner with lavender glow |
-| 🛸 **UFO Doodle** | Bottom-right corner, floating near the Moon |
-| 🌈 **Rainbow Doodle** | Top-right area with a bouncy "peek-a-boo" bloom animation |
-
-Each celestial doodle is rendered beautifully at `50px` and has its own unique **floating/blooming animation** with different timing for a natural, dreamy feel.
 
 ### Setup (Optional)
 
