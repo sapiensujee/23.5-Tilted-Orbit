@@ -24,7 +24,7 @@
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sapiensujee/23.5-Tilted-Orbit.git"
   },
   "contributes": {
     "themes": [
