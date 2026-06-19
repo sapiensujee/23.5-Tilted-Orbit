@@ -88,14 +88,16 @@ This theme includes an **optional** starfield background and floating celestial 
 | Element | Description |
 |---------|-------------|
 | ⭐ **Starfield** | ~35 scattered stars using CSS radial gradients in gold, sky-blue, lavender, pink, and chalk colors — with varying sizes and soft glow halos |
-| ✨ **Twinkle Animation** | 5 select stars gently pulse with a 4-second twinkle cycle |
+| ✨ **Twinkle Animation** | 10 select stars gently pulse with a 4-second twinkle cycle |
+| 🌌 **Constellations** | The Big Dipper and Cassiopeia drawn with dashed lines in the top-left area |
+| 💖 **Sparkling Hearts** | 6 scattered hearts (🩷 and 💚) with staggered sparkle animations across the editor |
 | 🌞 **Sun Doodle** | Floating in the center-right of the editor |
 | 🌍 **Earth Doodle** | Floating near the Sun, offset slightly |
 | 🌙 **Moon Doodle** | Bottom-right corner with lavender glow |
 | 🛸 **UFO Doodle** | Bottom-right corner, floating near the Moon |
-| 🌈 **Rainbow Doodle** | Top-right area with soft pink glow |
+| 🌈 **Rainbow Doodle** | Top-right area with a bouncy "peek-a-boo" bloom animation |
 
-Each doodle has its own unique **floating animation** with different timing (6–9 seconds) for a natural, dreamy feel.
+Each celestial doodle is rendered beautifully at `50px` and has its own unique **floating/blooming animation** with different timing for a natural, dreamy feel.
 
 ### Setup (Optional)
 
