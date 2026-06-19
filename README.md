@@ -83,6 +83,8 @@ Six themed bracket colors using the full palette:
 
 This theme includes an **optional** starfield background and floating celestial doodles that bring the cosmic romance of 23.5 right into your editor.
 
+![23.5° Tilted Orbit Editor Preview](assets/preview.png)
+
 ### What's Included
 
 | Element | Description |
