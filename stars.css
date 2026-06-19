@@ -1,0 +1,212 @@
+/*
+ * 23.5° Tilted Orbit — Starfield Background
+ * 
+ * Usage:
+ *   1. Install the "Custom CSS and JS Loader" extension
+ *   2. Open Settings (JSON) and add:
+ *      "vscode_custom_css.imports": [
+ *        "file:///c:/23.5/extension/stars.css"
+ *      ]
+ *   3. Run command: "Reload Custom CSS and JS"
+ *   4. Restart VS Code
+ */
+
+/* ── Starfield layer on editor background ──────────────────────── */
+.monaco-editor .view-lines::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    /* ★ Bright stars — warm gold (sunlight), with soft glow */
+    radial-gradient(3px 3px at  87px  45px, rgba(255, 230, 109, 0.60) 40%, rgba(255, 230, 109, 0.15) 70%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 340px 120px, rgba(255, 230, 109, 0.50) 40%, rgba(255, 230, 109, 0.10) 70%, transparent 100%),
+    radial-gradient(3.5px 3.5px at 620px  78px, rgba(255, 230, 109, 0.55) 40%, rgba(255, 230, 109, 0.12) 70%, transparent 100%),
+    radial-gradient(2.8px 2.8px at 890px 210px, rgba(255, 230, 109, 0.45) 40%, rgba(255, 230, 109, 0.10) 70%, transparent 100%),
+    radial-gradient(3.2px 3.2px at 150px 380px, rgba(255, 230, 109, 0.55) 40%, rgba(255, 230, 109, 0.12) 70%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 480px 290px, rgba(255, 230, 109, 0.40) 40%, rgba(255, 230, 109, 0.08) 70%, transparent 100%),
+    radial-gradient(3px 3px at 730px 420px, rgba(255, 230, 109, 0.50) 40%, rgba(255, 230, 109, 0.10) 70%, transparent 100%),
+    radial-gradient(2.8px 2.8px at 960px 350px, rgba(255, 230, 109, 0.45) 40%, rgba(255, 230, 109, 0.10) 70%, transparent 100%),
+    radial-gradient(3px 3px at 1100px 130px, rgba(255, 230, 109, 0.50) 40%, rgba(255, 230, 109, 0.10) 70%, transparent 100%),
+
+    /* ✦ Medium stars — sky blue */
+    radial-gradient(2.5px 2.5px at  55px 190px, rgba(143, 211, 255, 0.50) 40%, rgba(143, 211, 255, 0.10) 70%, transparent 100%),
+    radial-gradient(2.2px 2.2px at 270px 310px, rgba(143, 211, 255, 0.40) 40%, rgba(143, 211, 255, 0.08) 70%, transparent 100%),
+    radial-gradient(2.8px 2.8px at 510px 150px, rgba(143, 211, 255, 0.45) 40%, rgba(143, 211, 255, 0.10) 70%, transparent 100%),
+    radial-gradient(2px 2px at 780px 480px, rgba(143, 211, 255, 0.35) 40%, rgba(143, 211, 255, 0.08) 70%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 195px 520px, rgba(143, 211, 255, 0.40) 40%, rgba(143, 211, 255, 0.08) 70%, transparent 100%),
+    radial-gradient(2.2px 2.2px at 850px  90px, rgba(143, 211, 255, 0.38) 40%, rgba(143, 211, 255, 0.08) 70%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 1050px 400px, rgba(143, 211, 255, 0.42) 40%, rgba(143, 211, 255, 0.08) 70%, transparent 100%),
+
+    /* ✧ Soft stars — lavender (Luna) */
+    radial-gradient(2.2px 2.2px at 120px 260px, rgba(205, 180, 255, 0.45) 40%, rgba(205, 180, 255, 0.10) 70%, transparent 100%),
+    radial-gradient(2px 2px at 410px 440px, rgba(205, 180, 255, 0.35) 40%, rgba(205, 180, 255, 0.08) 70%, transparent 100%),
+    radial-gradient(2.5px 2.5px at 680px 180px, rgba(205, 180, 255, 0.40) 40%, rgba(205, 180, 255, 0.08) 70%, transparent 100%),
+    radial-gradient(1.8px 1.8px at 930px 530px, rgba(205, 180, 255, 0.30) 40%, rgba(205, 180, 255, 0.06) 70%, transparent 100%),
+    radial-gradient(2.2px 2.2px at 300px  60px, rgba(205, 180, 255, 0.35) 40%, rgba(205, 180, 255, 0.08) 70%, transparent 100%),
+
+    /* ♡ Faint stars — romantic pink */
+    radial-gradient(1.8px 1.8px at  30px 410px, rgba(247, 214, 224, 0.35) 40%, rgba(247, 214, 224, 0.08) 70%, transparent 100%),
+    radial-gradient(1.6px 1.6px at 200px 140px, rgba(247, 214, 224, 0.28) 40%, rgba(247, 214, 224, 0.06) 70%, transparent 100%),
+    radial-gradient(2px 2px at 560px 350px, rgba(247, 214, 224, 0.32) 40%, rgba(247, 214, 224, 0.08) 70%, transparent 100%),
+    radial-gradient(1.8px 1.8px at 810px 270px, rgba(247, 214, 224, 0.28) 40%, rgba(247, 214, 224, 0.06) 70%, transparent 100%),
+    radial-gradient(1.6px 1.6px at 450px  30px, rgba(247, 214, 224, 0.25) 40%, rgba(247, 214, 224, 0.05) 70%, transparent 100%),
+    radial-gradient(1.8px 1.8px at 700px 560px, rgba(247, 214, 224, 0.30) 40%, rgba(247, 214, 224, 0.06) 70%, transparent 100%),
+
+    /* · Tiny dust — faded chalk */
+    radial-gradient(1.2px 1.2px at  75px 480px, rgba(127, 154, 168, 0.25) 40%, transparent 100%),
+    radial-gradient(1px 1px at 240px 230px, rgba(127, 154, 168, 0.20) 40%, transparent 100%),
+    radial-gradient(1.2px 1.2px at 390px 510px, rgba(127, 154, 168, 0.25) 40%, transparent 100%),
+    radial-gradient(1px 1px at 650px 110px, rgba(127, 154, 168, 0.20) 40%, transparent 100%),
+    radial-gradient(1.2px 1.2px at 870px 440px, rgba(127, 154, 168, 0.25) 40%, transparent 100%),
+    radial-gradient(1px 1px at 100px  10px, rgba(127, 154, 168, 0.18) 40%, transparent 100%),
+    radial-gradient(1.2px 1.2px at 550px 570px, rgba(127, 154, 168, 0.22) 40%, transparent 100%),
+    radial-gradient(1px 1px at 980px 160px, rgba(127, 154, 168, 0.18) 40%, transparent 100%)
+  ;
+}
+
+/* ── Subtle twinkling animation ────────────────────────────────── */
+@keyframes twinkle {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+.monaco-workbench .part.editor .content::after {
+  content: '' !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  pointer-events: none !important;
+  z-index: 9998 !important;
+  display: block !important;
+  animation: twinkle 4s ease-in-out infinite;
+  background:
+    radial-gradient(4px 4px at 340px 120px, rgba(255, 230, 109, 0.60) 40%, rgba(255, 230, 109, 0.15) 70%, transparent 100%),
+    radial-gradient(3.5px 3.5px at 730px 420px, rgba(143, 211, 255, 0.50) 40%, rgba(143, 211, 255, 0.12) 70%, transparent 100%),
+    radial-gradient(3px 3px at 120px 260px, rgba(205, 180, 255, 0.45) 40%, rgba(205, 180, 255, 0.10) 70%, transparent 100%),
+    radial-gradient(3.5px 3.5px at 890px 210px, rgba(255, 230, 109, 0.55) 40%, rgba(255, 230, 109, 0.12) 70%, transparent 100%),
+    radial-gradient(3px 3px at 510px 150px, rgba(247, 214, 224, 0.42) 40%, rgba(247, 214, 224, 0.10) 70%, transparent 100%),
+    /* Second set — offset positions */
+    radial-gradient(3.5px 3.5px at 180px 450px, rgba(255, 230, 109, 0.55) 40%, rgba(255, 230, 109, 0.12) 70%, transparent 100%),
+    radial-gradient(4px 4px at 600px 80px, rgba(143, 211, 255, 0.50) 40%, rgba(143, 211, 255, 0.12) 70%, transparent 100%),
+    radial-gradient(3.5px 3.5px at 950px 480px, rgba(205, 180, 255, 0.45) 40%, rgba(205, 180, 255, 0.10) 70%, transparent 100%),
+    radial-gradient(3px 3px at 420px 370px, rgba(255, 230, 109, 0.50) 40%, rgba(255, 230, 109, 0.12) 70%, transparent 100%),
+    radial-gradient(3.5px 3.5px at 800px 300px, rgba(247, 214, 224, 0.42) 40%, rgba(247, 214, 224, 0.10) 70%, transparent 100%)
+  !important;
+}
+
+/* ── Celestial doodles — bottom corners ────────────────────────── */
+
+/* Floating animations — each with unique timing */
+@keyframes float-earth {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-7px) rotate(-4deg); }
+}
+
+@keyframes float-sun {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(5deg); }
+}
+
+@keyframes float-moon {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-9px) rotate(-6deg); }
+}
+
+@keyframes float-ufo {
+  0%, 100% { transform: translateY(0px) translateX(0px); }
+  33% { transform: translateY(-5px) translateX(4px); }
+  66% { transform: translateY(-8px) translateX(-3px); }
+}
+
+/* ── Center-RIGHT: Sun 🌞 & Earth 🌍 ─────────────────────────── */
+
+/* Sun doodle 🌞 — center right */
+body::before {
+  content: '🌞';
+  position: fixed !important;
+  top: 40% !important;
+  right: 18% !important;
+  font-size: 44px !important;
+  opacity: 0.20 !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+  animation: float-sun 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 12px rgba(255, 230, 109, 0.4));
+  display: block !important;
+}
+
+/* Earth doodle 🌍 — center right, offset from sun */
+body::after {
+  content: '🌍';
+  position: fixed !important;
+  top: 50% !important;
+  right: 28% !important;
+  font-size: 40px !important;
+  opacity: 0.18 !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+  animation: float-earth 7s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(143, 211, 255, 0.35));
+  display: block !important;
+}
+
+/* ── Bottom-RIGHT: UFO 🛸 & Moon 🌙 together ─────────────────── */
+
+/* Moon doodle 🌙 — bottom right */
+.monaco-workbench::before {
+  content: '🌙';
+  position: fixed !important;
+  bottom: 60px !important;
+  right: 80px !important;
+  font-size: 40px !important;
+  opacity: 0.22 !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+  animation: float-moon 8s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(205, 180, 255, 0.4));
+  display: block !important;
+}
+
+/* UFO doodle 🛸 — bottom right, near moon */
+.monaco-workbench::after {
+  content: '🛸';
+  position: fixed !important;
+  bottom: 110px !important;
+  right: 40px !important;
+  font-size: 36px !important;
+  opacity: 0.20 !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+  animation: float-ufo 9s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(155, 231, 255, 0.4));
+  display: block !important;
+}
+
+/* ── Top-RIGHT: Rainbow 🌈 ───────────────────────────────────── */
+
+@keyframes float-rainbow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-5px) rotate(3deg); }
+}
+
+/* Rainbow doodle 🌈 — top right area */
+.monaco-workbench .part.editor::before {
+  content: '🌈';
+  position: fixed !important;
+  top: 18% !important;
+  right: 8% !important;
+  font-size: 42px !important;
+  opacity: 0.20 !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+  animation: float-rainbow 8s ease-in-out infinite;
+  filter: drop-shadow(0 0 12px rgba(247, 214, 224, 0.35));
+  display: block !important;
+}

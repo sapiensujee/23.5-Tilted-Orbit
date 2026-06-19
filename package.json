@@ -1,0 +1,38 @@
+{
+  "name": "tilted-orbit",
+  "displayName": "23.5° Tilted Orbit",
+  "description": "A soft pastel VS Code theme inspired by the Thai GL show 23.5 — school-romcom warmth, sunlight, Earth tones, and cosmic blue.",
+  "version": "0.1.0",
+  "publisher": "sapien",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "pastel",
+    "23.5",
+    "tilted-orbit",
+    "romance",
+    "cosmic",
+    "soft"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "23.5° Tilted Orbit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tilted-orbit-color-theme.json"
+      }
+    ]
+  }
+}
