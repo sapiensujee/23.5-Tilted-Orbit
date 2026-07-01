@@ -211,4 +211,4 @@ tilted-orbit/
 
 ## 📝 License
 
-MIT
+GNU GENERAL PUBLIC LICENSE
